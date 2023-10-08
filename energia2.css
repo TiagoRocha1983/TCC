@@ -1,0 +1,219 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin:0;
+    padding:0;
+        
+}
+header {
+    display:flex;
+    justify-content: center;
+    height:128px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:990px;
+    
+        
+}
+.logo {
+    display: flex;
+    background-color: greenyellow;
+   
+
+}
+.menu {
+    display:flex;
+    align-items: center;
+    color:#0039c7;
+}
+
+#banner {
+    display:flex;
+    justify-content: center ;
+    background-image:url('./placa_campo.jpg');
+    background-position: center;
+    background-size: cover;
+    height:670px;
+    
+}
+
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner_headline h1 {
+    color:#FFFFFF;
+    font-size:60px;
+    text-shadow: 0px 2px 0px #000000;
+    margin:0;
+    padding:0;
+    width:550px;
+
+}
+.banner_headline h2 {
+    color:#FFFFFF;
+    font-size:25px;
+    text-shadow: 0px 2px 0px #000000;
+    margin:0;
+    padding:0;
+    width:500px;
+    margin-top: 30px;
+}
+.banner_options {
+    height:210px;
+    display:flex;
+    
+}
+.banner1,
+.banner2,
+.banner3 {
+    flex:1;
+    color:#FFFFFF;
+    padding:20px;
+}
+.banner1 {
+    background-color: #39aae1;
+}
+.banner2 {
+    background-color: #0039c7;
+}
+.banner3 {
+    background-color: #2b4c99;
+}
+.banner_title {
+    font-size: 20px;
+
+}
+.banner_desc {
+    font-size:13px;
+    margin-top:18px;
+    margin-bottom:20px;
+}
+.banner_options a {
+    display: inline-block;
+    border:1px solid #FFFFFF;
+    padding:5px;
+    color:#FFFFFF;
+    font-size:13px;
+    text-decoration: none;
+}
+#geral {
+    display:flex;
+    justify-content: center;
+}
+#geral section {
+    flex:2;
+}
+#geral aside {
+    flex:1;
+}
+.widget_title {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.widget_title_text {
+    color:#000000;
+    font-size:21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width:50px;
+    height:2px;
+    background-color:#36a9e1 ;
+    margin-top:8px;
+}
+
+.widget_body {
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+article {
+    flex:1;
+    min-width:300px;
+    margin-right:20px;
+}
+article a {
+    text-decoration: none;
+}
+
+article .news_thumbnail img {
+    width: 300px;
+    height:auto;
+}
+
+
+article .news_title {
+    margin-top:20px;
+    margin-bottom:25px;
+    color:#000000;
+    font-size:23px;
+}
+article .news_resume {
+    color: black;
+    line-height:20px;
+    font-size:16px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display:flex;
+    justify-content: center;
+}
+.footer_menu {
+    display:flex;
+    color:#FFFFFF;
+    
+}
+.fm1,.fm2,.fm3 {
+    flex:1;
+    color:#FFFFFF;
+    padding:20px;
+}
+.fm1 {
+    background-color: #39aae1;
+}
+.fm2 {
+    background-color: #0039c7;
+}
+.fm3 {
+    background-color: #2b4c99;
+}
+.footer_area {
+    display:flex;
+   
+}
+.footer_areaitem {
+    flex:1; 
+    color:#FFFFFF;
+}
+.flexColumn {
+    flex-direction:column;
+}
+footer .widget_title_text {
+ color:#FFFFFF;
+}
+.footer_copy {
+    border-top: 1px colid #2c2c2c;
+    height:40px;
+    line-height:40px;
+    color:#5c5c5c;
+    font-size:12px;
+    margin-top:30px;
+
+}
