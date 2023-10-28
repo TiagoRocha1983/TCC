@@ -14,9 +14,10 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-      
+   
         
 }
+
 .logo {
     margin-top: 45px;
     text-align:left;
@@ -83,7 +84,7 @@ header {
 
 }
 .banner_desc {
-    font-size:13px;
+    font-size:15px;
     margin-top:18px;
     margin-bottom:20px;
 }
