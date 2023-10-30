@@ -1,7 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h3>Campo de cadastro</h3>
-    </body>
-    
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <meta name="Author" content="Tiago Gomes da Roca-RA.T451ID0" />
+    <meta description="Cadastro de empresas!" content="Ficha para cadastro de empresas." />
+
+    <title>Cadastro de empresas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="cadastro.png" alt="">
+        </div>
+        <div class="rigthside">
+            <h1>Digite seus dados</h1>
+
+            <form method="POST" action="cadastro.php" class="validador">
+                <label>
+                    Seu nome:<br/>
+                    <input type="text" name="name" data-rules="required|min=2" />
+                </label>
+                <label>
+                    Seu e-mail:<br/>
+                    <input type="text" name="email" data-rules="required|email" />
+                </label>
+                <label>
+                    Seu telefone:<br>
+                    <input type="inteiro" name="telefone" data-rules="required|min=11" />
+                </label>
+                <label>
+                    <input type="submit" value="Cadastrar" />
+                </label>
+                            
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
