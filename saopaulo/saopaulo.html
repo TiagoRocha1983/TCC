@@ -8,6 +8,7 @@
 
     <title>Empresas listadas na próximos a São Paulo</title>
     <link rel="stylesheet" type="text/css" href="energia3.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
@@ -42,24 +43,30 @@
                     </div>
             
             <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Calculo por área de  consumo.</div>
+                    <div class="banner_desc">Realize aqui seus calculos, não se deixe enganar.</div>
                 
-                <div class="banner1"> 
-                    <div class="banner_title">Calculo de área por consumo.</div>
-                    <div class="banner_desc">Realize aqui seus calculos de metragem não se deixe enganar</div>
+                <form id="contactForm" class="form-horizontal" method="POST"  enctype="multipart/form-data">
+          
+                     
+            
 
-                <input type="text" placeholder="Digite seu consumo!" class="input"/>
+                    <select class="form-control " id="tipo" name="tipo" required>
+                      <option value="" selected disabled>Consulte valores.</option>
+                      <option value="350">Até 350KWh/mês</option>
+                      <option value="650">Entre 350 e 650 KWh/mês</option>
+                      <option value="1000">Entre 650 e 1000 KWh/mês</option>
+                    </select>
+                    
+                    <input type="text" class="form-control" name="x" placeholder="Search term...">
+                </form>
+            <script src="../conteudoJava/functionCalculo.js">
 
-                <button class="botao" onclick="clicou()">Consultar valores.</button>
-                
-
-                
-                
-
-                <script src="../conteudoJava/functionCalculo.js"></script>
-
-                </div>
-                
-            </div>
+               
+            </script>
+            </div>    
+            
         </div>
     </html>
     </section>

@@ -10,6 +10,7 @@ header {
     display:flex;
     justify-content: center;
     height:128px;
+    background-color:#36a9e1 ;
 }
 .container {
     display: flex;
@@ -17,9 +18,13 @@ header {
     width:990px;
         
 }
+.busca{
+    font-size: 25px;
+    margin-top: 50px;
+}
 .logo {
-    display: flex ;
-    margin-top: 40px;
+    text-align: left;
+    background-color: #36a9e1;
 }
 
 .menu {

@@ -84,9 +84,13 @@ header {
 
 }
 .banner_desc {
-    font-size:15px;
+    font-size:18px;
     margin-top:18px;
     margin-bottom:20px;
+}
+.form-control{
+    font-size: 18px;
+    
 }
 
 .widget_title {
@@ -122,12 +126,13 @@ footer {
 }
 
 
+
 .footer_copy {
     border-top: 1px colid #2c2c2c;
     height:40px;
     line-height:40px;
     color:#FFFFFF;
-    font-size:15px;
+    font-size:18px;
     margin-top:30px;
     text-align: center;
 
