@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,user-scalable=0" />
-    <meta name="Author" content="Tiago Gomes da Roca-RA.T451ID0" />
-    <meta description="Cadastro de empresas!" content="Ficha para cadastro de empresas." />
 
+<head>
     <title>Cadastro de empresas</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -16,9 +10,9 @@
             <img src="cadastro.png" alt="">
         </div>
         <div class="rigthside">
-            <h1>Digite seus dados</h1>
+            <h1>Cadastre sua empresa</h1>
 
-            <form method="POST" action="cadastro.php" class="validador">
+            <form method="POST" action="adicionar_action.php" class="validador">
                 <label>
                     Seu nome:<br/>
                     <input type="text" name="name" data-rules="required|min=2" />
@@ -29,7 +23,7 @@
                 </label>
                 <label>
                     Seu telefone:<br>
-                    <input type="inteiro" name="telefone" data-rules="required|min=11" />
+                    <input type="int" name="telefone" data-rules="required|min=11" />
                 </label>
                 <label>
                     <input type="submit" value="Cadastrar" />
